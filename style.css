@@ -1,0 +1,41 @@
+.signup-container {
+    width: 250px;
+    margin: auto;
+    border: 3px solid rgb(0, 0, 0);
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 3px 3px 3px 3px grey;
+    background:rgb(197, 245, 179)
+}
+.signup-container input, .signup-container select, .signup-container button {
+    width: 90%;
+    padding: 10px;
+    margin: 5px 0;
+}
+.signup-container label {
+    margin-top: 10px;
+}
+.gender {
+    display: flex;
+    justify-content: space-between;
+}
+.gender label {
+    width: 30%;
+    display: flex;
+    align-items: center;
+}
+.gender input {
+    margin-right: 10px;
+}
+body{
+    background:white;
+}
+.signup-container{
+    color: black;
+}
+button{
+    color: black;
+}
+button{
+    background: green;
+}
